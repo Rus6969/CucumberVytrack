@@ -12,7 +12,7 @@ public class ContactsPage extends BasePage {
 //    // this only finds one email, it does nnot help in finding others. we cannot use this
 //    @FindBy(xpath = "//*[contains(text(), ‘mbrackstone9@example.com') and @data-column-label='Email']")
 //    WebElement email;
-
+/////gitg
 
     public WebElement getContactEmail(String email){
         String xpath = "//*[contains(text(), '"+email+"') and @data-column-label='Email']";
